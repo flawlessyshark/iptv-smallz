@@ -1,0 +1,26 @@
+Extended M3U 
+In the extended M3U, additional directives are introduced that begin with “#” and end with a colon(:) if they have parameters. Given below is a list of directives for extended M3U.
+
+#EXTM3U - It is the file header indicating Extended M3U and must be first line of the file.
+#EXTENC: - Text encoding. It must be the 2nd line of the file.
+#EXTINF: - Used for track information and other additional properties.
+#PLAYLIST: - The title of the playlist
+#EXTGRP: - Begin name grouping
+#EXTALB: - Album information
+#EXTART: - Album artist
+#EXTGENRE - Album Genre
+#EXTM3A - Single file playlist for album tracks or chapters.
+#EXTBYT: - File size in bytes.
+#EXTBIN: - Binary data follows.
+#EXTIMG: - Logo, Cover or other images.
+
+#EXTM3U
+
+#EXTINF:0,video 1 - ForBiggerJoyrides
+http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
+
+#EXTINF:0,video 2 - BigBuckBunny
+http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+#EXTINF:0,video 3 - ElephantsDream
+http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
